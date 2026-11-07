@@ -1,0 +1,16 @@
+# Dependencies & Cache
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Temp & Extraction artifacts
+unzipped_profile/
+extract.py
+extracted_profile.txt
+logo_crop*.png
+logo-original.png
+logo-transparent.png
+
+# Windows Alternate Data Streams
+*Zone.Identifier*
+*:Zone.Identifier
