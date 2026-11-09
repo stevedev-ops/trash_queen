@@ -1,74 +1,75 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 160" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 140" width="100%" height="100%">
   <defs>
     <style>
-      .brand-title {
-        font-family: 'Montserrat', 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      .h-title {
+        font-family: 'Outfit', 'Montserrat', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
         font-weight: 800;
+        font-size: 42px;
         fill: #174D32;
-        font-size: 52px;
         letter-spacing: -0.5px;
       }
-      .brand-tagline {
-        font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-        font-weight: 600;
+      .h-tagline {
+        font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+        font-weight: 700;
+        font-size: 12px;
         fill: #B58A16;
-        font-size: 15px;
-        letter-spacing: 2px;
+        letter-spacing: 2.2px;
       }
     </style>
+    <linearGradient id="hGreenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A5336"/>
+      <stop offset="100%" stop-color="#13432A"/>
+    </linearGradient>
+    <linearGradient id="hGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D6A125"/>
+      <stop offset="100%" stop-color="#B38412"/>
+    </linearGradient>
   </defs>
 
-  <!-- Logo Mark (Left) -->
-  <g transform="translate(15, 10)">
-    <!-- Outer Q Ring (Dark Green) -->
-    <!-- Arc for Q body with opening at bottom right (around 45-60 deg) for leaf -->
-    <path d="M 70 12 
-             A 58 58 0 1 1 114 106
-             A 42 42 0 1 0 70 28
-             A 42 42 0 0 0 28 70
-             A 42 42 0 0 0 70 112
-             C 76 112 82 110 88 107
-             L 94 122
-             C 86 126 78 128 70 128
-             A 58 58 0 0 1 12 70
-             A 58 58 0 0 1 70 12 Z" 
-          fill="#174D32" />
+  <!-- Left Emblem Mark -->
+  <g transform="translate(-15, -15) scale(0.85)">
+    <!-- Outer Green Q-Ring -->
+    <path d="M 138 48
+             A 66 66 0 1 0 118 148
+             L 110 134
+             A 48 48 0 1 1 125 57
+             Z"
+          fill="url(#hGreenGrad)"/>
 
-    <!-- Inner 'T' (Mustard Yellow) -->
-    <!-- Crossbar -->
-    <path d="M 46 45 
-             C 46 41 49 38 53 38 
-             L 87 38 
-             C 91 38 94 41 94 45 
-             L 94 53 
-             C 94 55 92 57 90 57 
-             L 76 57 
-             L 76 98 
-             C 76 102 73 105 69 105 
-             L 65 105 
-             L 64 57 
-             L 50 57 
-             C 48 57 46 55 46 53 Z" 
-          fill="#B58A16" />
+    <!-- Inner Mustard-Yellow 'T' -->
+    <rect x="52" y="52" width="76" height="15" rx="4" fill="url(#hGoldGrad)"/>
+    <rect x="82" y="65" width="16" height="60" rx="3" fill="url(#hGoldGrad)"/>
 
-    <!-- Leaf Tail of Q (Dark Green / Accent Leaf) -->
-    <!-- Sprouting from bottom right of the Q circle -->
-    <path d="M 98 94 
-             C 114 90 134 98 140 122 
-             C 126 128 106 124 94 108 
-             C 92 104 94 97 98 94 Z" 
-          fill="#174D32" />
-    <!-- Leaf Center Vein -->
-    <path d="M 98 96 
-             C 108 104 122 112 138 120" 
-          stroke="#EBF5F0" 
-          stroke-width="2.5" 
-          stroke-linecap="round" 
-          fill="none" />
+    <!-- Leaf tail of 'Q' -->
+    <path d="M 98 120
+             C 114 110 144 112 162 146
+             C 142 156 116 148 102 130
+             Z"
+          fill="url(#hGreenGrad)"/>
+    <path d="M 104 123
+             C 120 130 140 138 156 144"
+          stroke="#FFFFFF"
+          stroke-width="2.5"
+          stroke-linecap="round"
+          stroke-opacity="0.9"
+          fill="none"/>
+
+    <!-- Leaf on T Stem -->
+    <path d="M 98 94
+             C 112 84 130 90 134 106
+             C 120 110 106 104 98 96
+             Z"
+          fill="url(#hGreenGrad)"/>
+    <path d="M 100 95
+             C 110 98 122 102 128 104"
+          stroke="#FFFFFF"
+          stroke-width="1.8"
+          stroke-linecap="round"
+          stroke-opacity="0.8"
+          fill="none"/>
   </g>
 
-  <!-- Typography (Right) -->
-  <text x="165" y="85" class="brand-title">Trash Qwins</text>
-  <text x="168" y="116" class="brand-tagline">TURNING WASTE INTO WEALTH</text>
+  <!-- Typography Right -->
+  <text x="145" y="74" class="h-title">Trash Qwins</text>
+  <text x="147" y="102" class="h-tagline">TURNING WASTE INTO WEALTH</text>
 </svg>
-
