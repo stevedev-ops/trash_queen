@@ -30,6 +30,13 @@ Trash Qwins is a Kenyan waste-to-value company transforming discarded glass bott
 
 ---
 
+## 📞 Official Contacts
+* **Email**: [trashqwins@gmail.com](mailto:trashqwins@gmail.com)
+* **Phone / WhatsApp**: [+254 722 336707](tel:+254722336707)
+* **Location**: Nairobi, Kenya
+
+---
+
 ## 🚀 Live Hosting on Vercel
 This project is configured for instant zero-configuration deployment on [Vercel](https://vercel.com):
 * Pre-configured with `vercel.json` for clean URLs and static asset caching.
