@@ -20,6 +20,9 @@
     },
     {
       "src": "/BingSiteAuth.xml",
+      "headers": {
+        "Content-Type": "text/xml; charset=utf-8"
+      },
       "dest": "/BingSiteAuth.xml"
     },
     {
