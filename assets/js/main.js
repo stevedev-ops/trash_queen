@@ -187,14 +187,27 @@ function initPartnerModal() {
 
   if (!modal) return;
 
+  const PARTNER_CATEGORY_MAP = {
+    'Hospitality Bottle Recovery': 'Hospitality Recovery',
+    'Hospitality Partnership': 'Hospitality Recovery',
+    'Community Partnership': 'MRF & CBO Coordination',
+    'Aggregation Hub Cooperation': 'MRF & CBO Coordination',
+    'Agricultural Inputs': 'BSF Larvae / Frass Offtake',
+    'Custom Recovery Plan': 'Training & Advisory',
+    'Commercial Partnership': 'General Inquiry',
+    'General Contact': 'General Inquiry'
+  };
+
   openButtons.forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.preventDefault();
-      const partnerCategory = btn.getAttribute('data-category');
-      if (partnerCategory && partnerForm) {
+      const rawCategory = btn.getAttribute('data-category');
+      if (rawCategory && partnerForm) {
         const catSelect = partnerForm.querySelector('select[name="partner_type"]');
         if (catSelect) {
-          catSelect.value = partnerCategory;
+          const mappedCategory = PARTNER_CATEGORY_MAP[rawCategory] || rawCategory;
+          const hasOption = Array.from(catSelect.options).some(opt => opt.value === mappedCategory);
+          catSelect.value = hasOption ? mappedCategory : 'General Inquiry';
         }
       }
       modal.classList.add('active');

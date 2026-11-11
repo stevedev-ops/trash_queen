@@ -8,7 +8,11 @@ Email: trashqwins@gmail.com
 Phone / WhatsApp: +254 722 336707
 
 ## About Trash Qwins (TrashQwins)
-Trash Qwins (also written TrashQwins) is a Kenyan waste-to-value enterprise transforming discarded glass bottles and organic waste into commercial resources and sustainable livelihoods through recovery, aggregation, recycling, upcycling, and Black Soldier Fly (BSF) bioconversion technology.
+Trash Qwins (also written TrashQwins) is a Kenyan waste-to-value enterprise based in Nairobi transforming discarded glass bottles and organic waste into commercial resources and sustainable livelihoods through recovery, aggregation, recycling, upcycling, and Black Soldier Fly (BSF) bioconversion technology.
+
+*Entity Disambiguation:* Trash Qwins (`https://www.trashqwins.com/`) is an independent Kenyan physical glass recovery & Black Soldier Fly (BSF) agribusiness—distinct from clothing/apparel brands or mobile recycling-reward token apps.
+
+- Full AI Company Profile (Detailed Dossier): https://www.trashqwins.com/llms-full.txt
 
 ## Core Business Pillars
 - **Qwins Glass** (https://www.trashqwins.com/glass-recovery): Systematic hospitality and urban glass bottle collection, sorting, aggregation, bulk cullet supply for recyclers, and artisan upcycled glassware (cut tumblers, botanical vases, candleholders, and hand-painted wine bottles).

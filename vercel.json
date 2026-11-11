@@ -53,6 +53,20 @@
       "dest": "/llms.txt"
     },
     {
+      "src": "/llms-full.txt",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8"
+      },
+      "dest": "/llms-full.txt"
+    },
+    {
+      "src": "/.well-known/security.txt",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8"
+      },
+      "dest": "/.well-known/security.txt"
+    },
+    {
       "src": "/e8c4a19b2d7f46039c18a5b4f7e2d109.txt",
       "headers": {
         "Content-Type": "text/plain; charset=utf-8"
