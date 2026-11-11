@@ -1,10 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.trashqwins.com/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.trashqwins.com/assets/images/logo.png</image:loc>
+      <image:title>Trash Qwins (TrashQwins) Official Logo</image:title>
+      <image:caption>Trash Qwins — Turning Waste into Wealth in Kenya</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.trashqwins.com/assets/images/profile-banner.png</image:loc>
+      <image:title>Trash Qwins Circular Economy — Glass Recovery and Black Soldier Fly (BSF)</image:title>
+      <image:caption>Glass bottle recovery and organic waste bioconversion into BSF larvae feed and organic frass in Nairobi, Kenya</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.trashqwins.com/assets/images/upcycled-glassware-collection.jpg</image:loc>
+      <image:title>Trash Qwins Artisan Upcycled Glassware Collection</image:title>
+      <image:caption>Handcrafted drinking tumblers, cut vases, and painted bottles made by Trash Qwins (TrashQwins)</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.trashqwins.com/assets/images/painted-bottles.jpg</image:loc>
+      <image:title>Trash Qwins Floral Upcycled Wine Bottles</image:title>
+      <image:caption>Decorative hand-painted glass bottles upcycled in Nairobi by Trash Qwins</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.trashqwins.com/assets/images/glass-vase-craft.jpg</image:loc>
+      <image:title>Trash Qwins Cut Glass Tumblers and Botanical Vases</image:title>
+      <image:caption>Precision-cut and polished upcycled glass vases and tumblers by Trash Qwins</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.trashqwins.com/assets/images/team-training.jpg</image:loc>
+      <image:title>Trash Qwins Community Waste Recovery Workshop</image:title>
+      <image:caption>Trash Qwins Nairobi community sorting and organic waste recovery training session</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.trashqwins.com/assets/images/site-operations.jpg</image:loc>
+      <image:title>Trash Qwins Field Operations in Nairobi</image:title>
+      <image:caption>Trash Qwins field team coordinating waste aggregation and recovery oversight in Kenya</image:caption>
+    </image:image>
   </url>
 </urlset>
 

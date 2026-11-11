@@ -19,6 +19,7 @@ const MIME = {
   '.webp': 'image/webp',
   '.txt': 'text/plain; charset=UTF-8',
   '.xml': 'application/xml; charset=UTF-8',
+  '.webmanifest': 'application/manifest+json; charset=UTF-8',
   '.woff': 'font/woff',
   '.woff2': 'font/woff2',
   '.ttf': 'font/ttf'
@@ -27,13 +28,26 @@ const MIME = {
 const server = http.createServer((req, res) => {
   let pathname = decodeURIComponent(req.url.split('?')[0]);
   if (pathname === '/') pathname = '/index.html';
-  
-  const filePath = path.join(DIR, pathname);
-  
+
+  const filePath = path.resolve(DIR, '.' + pathname);
+  if (!filePath.startsWith(path.resolve(DIR))) {
+    res.writeHead(403, { 'Content-Type': 'text/plain; charset=UTF-8' });
+    res.end('403 Forbidden');
+    return;
+  }
+
   fs.stat(filePath, (err, stats) => {
     if (err || !stats.isFile()) {
-      res.writeHead(404, { 'Content-Type': 'text/plain; charset=UTF-8' });
-      res.end('404 Not Found: ' + pathname);
+      const notFoundPage = path.join(DIR, '404.html');
+      fs.stat(notFoundPage, (nfErr, nfStats) => {
+        if (!nfErr && nfStats.isFile()) {
+          res.writeHead(404, { 'Content-Type': 'text/html; charset=UTF-8' });
+          fs.createReadStream(notFoundPage).pipe(res);
+          return;
+        }
+        res.writeHead(404, { 'Content-Type': 'text/plain; charset=UTF-8' });
+        res.end('404 Not Found: ' + pathname);
+      });
       return;
     }
     
