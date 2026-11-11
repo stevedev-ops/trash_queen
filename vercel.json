@@ -2,6 +2,16 @@
   "version": 2,
   "routes": [
     {
+      "src": "/(.*)",
+      "headers": {
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Permissions-Policy": "camera=(), microphone=(), geolocation=()"
+      },
+      "continue": true
+    },
+    {
       "src": "/assets/(.*)",
       "headers": { "cache-control": "s-maxage=31536000, immutable" },
       "dest": "/assets/$1"
