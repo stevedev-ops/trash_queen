@@ -1303,6 +1303,63 @@ button, input, select, textarea {
   flex-shrink: 0;
 }
 
+.pillar-link-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-top: auto;
+  padding-top: 1.5rem;
+  font-weight: 700;
+  font-size: 0.92rem;
+  color: var(--primary);
+}
+
+.pillar-link-cta:hover {
+  color: var(--accent-dark);
+  transform: translateX(3px);
+}
+
+/* Subpage Hero & Breadcrumbs */
+.subpage-hero {
+  background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+  color: #FFFFFF;
+  padding: 4.5rem 0 4rem 0;
+}
+
+.subpage-hero h1 {
+  color: #FFFFFF;
+  font-size: 2.75rem;
+  line-height: 1.15;
+  margin-bottom: 1.1rem;
+  max-width: 820px;
+}
+
+.subpage-hero p {
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 1.12rem;
+  max-width: 720px;
+  margin-bottom: 1.75rem;
+}
+
+.breadcrumb-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.88rem;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 1.25rem;
+}
+
+.breadcrumb-nav a {
+  color: var(--accent-light);
+  font-weight: 600;
+}
+
+.breadcrumb-nav a:hover {
+  text-decoration: underline;
+}
+
 /* Model Progression Banner */
 .model-progression-box {
   background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);

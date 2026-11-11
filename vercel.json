@@ -76,6 +76,78 @@
       "dest": "/index.html"
     },
     {
+      "src": "/about.html",
+      "status": 308,
+      "headers": {
+        "Location": "/about"
+      }
+    },
+    {
+      "src": "/about/",
+      "status": 308,
+      "headers": {
+        "Location": "/about"
+      }
+    },
+    {
+      "src": "/about",
+      "dest": "/about.html"
+    },
+    {
+      "src": "/glass-recovery.html",
+      "status": 308,
+      "headers": {
+        "Location": "/glass-recovery"
+      }
+    },
+    {
+      "src": "/glass-recovery/",
+      "status": 308,
+      "headers": {
+        "Location": "/glass-recovery"
+      }
+    },
+    {
+      "src": "/glass-recovery",
+      "dest": "/glass-recovery.html"
+    },
+    {
+      "src": "/bsf-organics.html",
+      "status": 308,
+      "headers": {
+        "Location": "/bsf-organics"
+      }
+    },
+    {
+      "src": "/bsf-organics/",
+      "status": 308,
+      "headers": {
+        "Location": "/bsf-organics"
+      }
+    },
+    {
+      "src": "/bsf-organics",
+      "dest": "/bsf-organics.html"
+    },
+    {
+      "src": "/solutions.html",
+      "status": 308,
+      "headers": {
+        "Location": "/solutions"
+      }
+    },
+    {
+      "src": "/solutions/",
+      "status": 308,
+      "headers": {
+        "Location": "/solutions"
+      }
+    },
+    {
+      "src": "/solutions",
+      "dest": "/solutions.html"
+    },
+    {
       "src": "/(.*)",
       "status": 404,
       "dest": "/404.html"

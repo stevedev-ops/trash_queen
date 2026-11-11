@@ -25,9 +25,22 @@ const MIME = {
   '.ttf': 'font/ttf'
 };
 
+const CLEAN_ROUTES = {
+  '/': '/index.html',
+  '/about': '/about.html',
+  '/glass-recovery': '/glass-recovery.html',
+  '/bsf-organics': '/bsf-organics.html',
+  '/solutions': '/solutions.html'
+};
+
 const server = http.createServer((req, res) => {
   let pathname = decodeURIComponent(req.url.split('?')[0]);
-  if (pathname === '/') pathname = '/index.html';
+  if (pathname.length > 1 && pathname.endsWith('/')) {
+    pathname = pathname.slice(0, -1);
+  }
+  if (CLEAN_ROUTES[pathname]) {
+    pathname = CLEAN_ROUTES[pathname];
+  }
 
   const filePath = path.resolve(DIR, '.' + pathname);
   if (!filePath.startsWith(path.resolve(DIR))) {

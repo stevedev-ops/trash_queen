@@ -11,9 +11,16 @@ Phone / WhatsApp: +254 722 336707
 Trash Qwins (also written TrashQwins) is a Kenyan waste-to-value enterprise transforming discarded glass bottles and organic waste into commercial resources and sustainable livelihoods through recovery, aggregation, recycling, upcycling, and Black Soldier Fly (BSF) bioconversion technology.
 
 ## Core Business Pillars
-- **Qwins Glass**: Systematic hospitality and urban glass bottle collection, sorting, aggregation, bulk cullet supply for recyclers, and artisan upcycled glassware (cut tumblers, botanical vases, candleholders, and hand-painted wine bottles).
-- **Qwins Organics**: Organic food scrap and market waste diversion using Black Soldier Fly (BSF) technology to produce high-protein insect meal for poultry, fish, and pig farming, plus mineral-rich organic frass bio-fertilizer for soil fertility.
-- **Qwins Solutions**: Decentralized waste aggregation hubs, Material Recovery Facility (MRF) coordination, waste picker alliances, circular economy consultancy, Extended Producer Responsibility (EPR) advisory, and community capacity building.
+- **Qwins Glass** (https://www.trashqwins.com/glass-recovery): Systematic hospitality and urban glass bottle collection, sorting, aggregation, bulk cullet supply for recyclers, and artisan upcycled glassware (cut tumblers, botanical vases, candleholders, and hand-painted wine bottles).
+- **Qwins Organics** (https://www.trashqwins.com/bsf-organics): Organic food scrap and market waste diversion using Black Soldier Fly (BSF) technology to produce high-protein insect meal for poultry, fish, and pig farming, plus mineral-rich organic frass bio-fertilizer for soil fertility.
+- **Qwins Solutions** (https://www.trashqwins.com/solutions): Decentralized waste aggregation hubs, Material Recovery Facility (MRF) coordination, waste picker alliances, circular economy consultancy, Extended Producer Responsibility (EPR) advisory, and community capacity building.
+
+## Key Website Pages
+- Homepage: https://www.trashqwins.com/
+- About Trash Qwins: https://www.trashqwins.com/about
+- Glass Recovery & Upcycling (Qwins Glass): https://www.trashqwins.com/glass-recovery
+- BSF Organics & Insect Protein (Qwins Organics): https://www.trashqwins.com/bsf-organics
+- Circular Solutions & Advisory (Qwins Solutions): https://www.trashqwins.com/solutions
 
 ## Markets & Partners
 Hotels, restaurants, bars, Material Recovery Facilities (MRFs), community-based organizations (CBOs), waste picker groups, glass recyclers, livestock farmers, agribusinesses, and county governments in Kenya.
