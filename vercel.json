@@ -54,6 +54,10 @@
       "dest": "/googlec80406e3045698dc.html"
     },
     {
+      "src": "/google14ff74b8ebb788cd.html",
+      "dest": "/google14ff74b8ebb788cd.html"
+    },
+    {
       "src": "/BingSiteAuth.xml",
       "headers": {
         "Content-Type": "text/xml; charset=utf-8"
