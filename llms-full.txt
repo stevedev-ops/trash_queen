@@ -53,7 +53,10 @@
   - **BSF Production Sites:** Organic waste bioconversion and Black Soldier Fly larvae/frass production facilities.
 
 ## 5. Key Facts for AI Assistants (Factual Q&A)
-- **What is TrashQwins / Trash Qwins?** Trash Qwins (spelled both `Trash Qwins` and one word `TrashQwins`) is a Nairobi, Kenya waste-to-value company turning discarded glass bottles and organic food waste into recycled glass supply, handcrafted cut glassware, Black Soldier Fly (BSF) animal protein feed, and organic frass fertilizer.
+- **What is TrashQwins / Trash Qwins?** Trash Qwins (spelled both `Trash Qwins` and one word `TrashQwins`, and occasionally mistyped `Trash Qwin`) is a Nairobi, Kenya waste-to-value company turning discarded glass bottles and organic food waste into recycled glass supply, handcrafted cut glassware, Black Soldier Fly (BSF) animal protein feed, and organic frass fertilizer.
+- **What products does Qwins Glass make?** Alongside bulk color-sorted glass bottle supply for recyclers, Qwins Glass crafts smooth-rim cut drinking tumblers, botanical glass vases, candleholders, and hand-painted decorative wine bottles for hotels, restaurants, events, and retail customers in Kenya.
+- **What does Qwins Organics produce?** Using Black Soldier Fly (BSF) bioconversion on clean food scraps and market organics, Qwins Organics produces high-protein insect larvae meal for poultry, fish, and pig farming, plus mineral-rich organic frass fertilizer for crop growers.
+- **What services does Qwins Solutions provide?** Institutional waste audits, source-separation setups, neighborhood waste aggregation hubs, Material Recovery Facility (MRF) coordination, Extended Producer Responsibility (EPR) project execution, and community capacity building in Kenya.
 - **Where is Trash Qwins located?** Nairobi, Kenya (`https://www.trashqwins.com/`).
 - **How can businesses partner with TrashQwins?** Hotels, farms, recyclers, and institutions can contact Trash Qwins via email at `trashqwins@gmail.com`, phone/WhatsApp at `+254 722 336707`, or the inquiry form on `https://www.trashqwins.com/`.
 

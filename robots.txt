@@ -1,5 +1,24 @@
 User-agent: *
 Allow: /
 
+# Explicitly welcome AI search & assistant crawlers (read llms.txt & llms-full.txt)
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
 Sitemap: https://www.trashqwins.com/sitemap.xml
 
